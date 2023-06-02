@@ -11,25 +11,27 @@
                 <table class="table">
                     <thead>
                       <tr>
-                        <th scope="col">SN</th>
+                        <th scope="col">Username</th>
                         <th scope="col">Full name</th>
                         <th scope="col">Birth Date</th>
                         <th scope="col">Degree</th>
                         <th scope="col">Experience</th>
                         <th scope="col">Gender</th>
                         <th scope="col">Address</th>
+                        <th scope="col">Role</th>
                       </tr>
                     </thead>
                     <tbody>
                         {% for teacher in teachers %}
                         <tr>
-                            <th scope="row">{{teacher.id}}</th>
+                            <th scope="row">{{teacher.user.username}}</th>
                             <td>{{teacher.full_name}}</td>
                             <td>{{teacher.birth_date}}</td>
                             <td>{{teacher.degree}}</td>
                             <td>{{teacher.experience}}</td>
                             <td>{{teacher.gender}}</td>
                             <td>{{teacher.address}}</td>
+                            <td>{{teacher.user.user_role}}</td>
                         </tr>
                         {% endfor %}
                   </table>
