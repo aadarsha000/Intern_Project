@@ -64,19 +64,19 @@ Only the user role Principal and group Principal can view the list of Students
 
 ### Events
  - User with role principal and teacher both can view, add, edit, delete the events
- - User with role studen can only view
+ - User with role student can only view
 ![Screenshot 2023-06-01 154650](https://github.com/aadarsha000/Intern_Project/assets/116047355/474faed2-b45e-4168-ad44-f22583ea43e6)
 ![Screenshot 2023-06-01 154725](https://github.com/aadarsha000/Intern_Project/assets/116047355/2fede8d1-cacc-43e6-ade9-b73c55e9be81)
 
 ### Notice
  - User with role principal and teacher both can view, add, edit, delete the events
- - User with role studen can only view
+ - User with role student can only view
 ![Screenshot 2023-06-01 154803](https://github.com/aadarsha000/Intern_Project/assets/116047355/3eb96197-79b3-4fce-bef8-376ee1b0fd2b)
 ![Screenshot 2023-06-01 154841](https://github.com/aadarsha000/Intern_Project/assets/116047355/1507086b-8d90-40bd-a772-71e9e034663e)
 
 ### Course
  - User with role principal  can view, add, edit, delete the course
- - User with role studen can only view course
+ - User with role student can only view course
  ![Screenshot 2023-06-01 155116](https://github.com/aadarsha000/Intern_Project/assets/116047355/f405355c-8bc5-4e4b-b0c9-37ec619e4052)
  ![Screenshot 2023-06-01 155236](https://github.com/aadarsha000/Intern_Project/assets/116047355/677e451e-1d1c-42a1-82e0-7c2de9e72633)
  
